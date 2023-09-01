@@ -30,12 +30,13 @@ default_args = {
  }
 
 with DAG(
-    dag_id='postgres_db_dag',
+    dag_id='redshift-inserts',
     schedule=None,
     start_date=datetime(year=2023, month=8, day=24),
     catchup=False
 ) as dag:
 
+ #No dag.test() in prod
  dag.test()
 
  task_import_to_pgsql = PythonOperator(
