@@ -9,8 +9,9 @@ Look at the job before running.  It uses both a dropoff and done directory.  Com
 
 ## Data sources
 Data sources are not unique or original, correctness not guaranteed:
+
 American County FIPS and longitude latitude:https://gist.github.com/russellsamora/12be4f9f574e92413ea3f92ce1bc58e6
 
 Public statistics by county: https://github.com/evangambit/JsonOfCounties
 
-The EV data comes from snowflake.  Of course, I do not in any way encourage copyright violation. That means you might need an account and (perhaps) export the data using an awesome tool like dbeaver.  Which, is why, there's no EV data in the repo. 
+The EV data comes from snowflake.  Of course, I do not in any way encourage copyright violation. That means you *might* need an account and *perhaps* export the data using an awesome tool like dbeaver to your localhost.
