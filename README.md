@@ -16,4 +16,4 @@ Public statistics by county: https://github.com/evangambit/JsonOfCounties
 
 This is a better shape file from the U.S. census to determine where in a county a point lies. cb_2018_us_county_500k.shp
 
-The EV data comes from snowflake.  Of course, I do not in any way encourage copyright violation. That means you *might* need an account and *perhaps* export the data using an awesome tool like dbeaver to your localhost.
+The EV data comes from snowflake.  Of course, I do not in any way encourage copyright violation. That means you probably need an account and *perhaps* export the data using an awesome tool like dbeaver to your localhost.
